@@ -1,0 +1,106 @@
+/* write your css here */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  border: 7px dashed blue;
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.card{
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0,0,0,0,24) 0px 3px 8px;
+}
+
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.tour-info{
+ margin: 20px 5px;
+}
+
+.tour-price{
+  font-size: 1.3rem;
+  color: green;
+}
+
+.tour-name{
+  font-size: 1.3rem;
+}
+
+.read-more{
+  cursor: pointer;
+  color: blue;
+}
+
+.btn{
+  margin: 18px;
+  padding: 10px 80px;
+  background-color: rgb(255, 146, 193);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: red;
+  transition: all 0.8s;
+}
+
+.notour{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 250px;
+}
+
+.notour h2{
+  margin: 5px;
+  padding: 15px;
+  font-size: 2.5rem;
+}
+
+.refbtn{
+  margin: 18px;
+  padding: 10px 40px;
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}

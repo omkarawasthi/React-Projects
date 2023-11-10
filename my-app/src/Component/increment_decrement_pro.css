@@ -1,0 +1,56 @@
+.Incr{
+    background-color: gray;
+    height: 690px;
+  }
+  
+  .dncr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    top: 150px;
+    font-size: 60px;
+  }
+  
+  .input {
+    color: black;
+    background-color: white;
+    position: relative;
+    left: 655px;
+    top: 150px;
+    height: 30px;
+    border-radius: 20px;
+    width: 65px;
+  }
+  .dcrbtn button{
+    position: relative;
+    left: 620px;
+    top: 180px;
+    height: 30px;
+    width: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .incbtn button{
+    position: relative;
+    left: 730px;
+    top: 120px;
+    height: 30px;
+    width: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .rstbtn button{
+  
+    position: relative;
+    left: 660px;
+    top: 130px;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(254, 44, 254);
+    cursor: pointer;
+    border-radius: 10px;
+  }
