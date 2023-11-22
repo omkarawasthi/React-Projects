@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.imag img{
+    height: 205px;
+    width: 450px;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.whole .title{
+    font-weight: bold;
+}
+
+.whole .btn{
+    cursor: pointer;
+    height: 35px;
+    width: 100%;
+}
